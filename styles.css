@@ -65,6 +65,26 @@ table {
     color: var(--deep-navy);
 }
 
+/* SKIP LINK */
+.skip-link {
+  font-weight: 700;
+  background: var(--ocean-blue);
+  color: var(--soft-white);
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  left: 50%;
+  position: absolute;
+  transform: translateY(-175%);
+  transition: transform 0.24s;
+}
+
+.skip-link:focus {
+  transform: translateY(0%);
+}
+
+
+
+
 /* ----------------- GLOBAL STYLES (MOBILE FIRST) -----------------*/
 * {
     box-sizing: border-box;
